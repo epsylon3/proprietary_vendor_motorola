@@ -162,3 +162,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
     vendor/motorola/olympus/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so
 
+# FM RADIO
+PRODUCT_COPY_FILES += \
+    vendor/motorola/olympus/proprietary/bin/fmradioserver:system/bin/fmradioserver \
+    vendor/motorola/olympus/proprietary/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
+    vendor/motorola/olympus/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
+    vendor/motorola/olympus/proprietary/lib/libsonivox.so:system/lib/libsonivox.so \
+    vendor/motorola/olympus/proprietary/app/FMRadio.apk:system/app/FMRadio.apk \
+    vendor/motorola/olympus/proprietary/app/FMRadioService.apk:system/app/FMRadioService.apk \
+    vendor/motorola/olympus/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so
+
